@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1662665326953" clover="3.2.0">
-  <project timestamp="1662665326954" name="All files">
+<coverage generated="1662721890929" clover="3.2.0">
+  <project timestamp="1662721890929" name="All files">
     <metrics statements="109" coveredstatements="109" conditionals="20" coveredconditionals="20" methods="4" coveredmethods="4" elements="133" coveredelements="133" complexity="0" loc="109" ncloc="109" packages="4" files="4" classes="4"/>
     <package name="buscarPalabra">
       <metrics statements="35" coveredstatements="35" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
@@ -121,8 +121,8 @@
         <line num="8" count="2" type="stmt"/>
         <line num="9" count="2" type="stmt"/>
         <line num="10" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="11" count="10" type="stmt"/>
-        <line num="12" count="10" type="stmt"/>
+        <line num="11" count="9" type="stmt"/>
+        <line num="12" count="9" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
         <line num="14" count="2" type="stmt"/>
         <line num="15" count="2" type="cond" truecount="1" falsecount="0"/>
