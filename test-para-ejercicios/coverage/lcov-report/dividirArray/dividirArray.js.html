@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for buscarPalabra/buscarPalabra.js</title>
+    <title>Code coverage report for dividirArray/dividirArray.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -19,13 +19,13 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../index.html">All files</a> / <a href="index.html">buscarPalabra</a> buscarPalabra.js</h1>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">dividirArray</a> dividirArray.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>35/35</span>
+                <span class='fraction'>43/43</span>
             </div>
         
             
@@ -46,7 +46,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>35/35</span>
+                <span class='fraction'>43/43</span>
             </div>
         
             
@@ -97,22 +97,15 @@
 <a name='L32'></a><a href='#L32'>32</a>
 <a name='L33'></a><a href='#L33'>33</a>
 <a name='L34'></a><a href='#L34'>34</a>
-<a name='L35'></a><a href='#L35'>35</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -125,47 +118,78 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">/*Dada una palabra, buscarla en una frase y devolver cuántas veces aparece la frase,
-la frase y la palabra deben ser parámetros de una función.
-Ejemplos:
-coincidencias("hola soy una palabra en una frase, PALABRA", "palabra") Devuelve 2
-coincidencias("Soy la frase","victor") //Devuelve 0 */
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">/*Dado un array, dividirlo en tantos subarrays
+como sea necesario basándons en un número que 
+indique su tamaño.
+Dividirlo en arrays de X elementos
 &nbsp;
-const coincidencias=(frase,palabra)=&gt;{
-    let lista=[]
-    
-    //
-    lista=frase.split(" ")
-    if(lista.includes(palabra)){
-        //Creamos un mapa para ir contando las veces que se repite la palabra
-        let listaNueva={}
-        for(let i of lista){
-            if(listaNueva[i]){
-                //Si la palabra se repite aumenta el contador
-                listaNueva[i]++
-            }else{
-                //Si la palabra no se repite se pone 1 en el mapa
-                listaNueva[i]=1
+Ejemplos:
+dividirArray([7,8,9,10,5],2)
+Devuelve:
+[[7,8],[9,10],[5]]
+&nbsp;
+*/
+&nbsp;
+const dividirarray=(lista,num)=&gt;{
+    let listaDefinitiva=[]
+    let listaTemporal=[]
+    let contador=0
+    if(lista.length&gt;0){
+        //Si la lista tiene datos retorna la lista definitiva
+        for(let i in lista){
+        listaTemporal.push(lista[i])
+        contador++
+        //Cuando contador llega al número se agrega temporal a definitiva, se vacía temporal y se pone a 0 el contador
+        //para que comience a contar de 0 hasta el num
+        if(contador==num){
+            listaDefinitiva.push(listaTemporal)
+            listaTemporal=[]
+            contador=0
             }
-            
         }
-        return listaNueva[palabra]
+        //En caso de que queden restos de elementos en temporal se agregan a definitiva fuera del ciclo
+        if(listaTemporal.length&gt;0){
+            listaDefinitiva.push(listaTemporal)
+        }
+    
+        return listaDefinitiva
     }else{
-        //Retorna false si la lista no tiene la palabra que se busca
+        //En caso de que la lista sea 0
         return false
     }
     
-        
-    }
+}
 &nbsp;
-&nbsp;
-module.exports=coincidencias</pre></td></tr></table></pre>
+module.exports=dividirarray</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->

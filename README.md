@@ -9,7 +9,7 @@ Dados dos números, devolver cuantos números IMPARES hay entre ellos
 Los palindromos son palabras que se leen igual aun
 estando a la inversa. Decir si una palabra es palíndromo o no
 
-## LISTAS Y MAPAS
+## LISTAS, MATRICES Y MAPAS
 
 ### mostrarSecuencia
 Dado un número mostrar todos los números desde ese al 0 de 8 en 8
@@ -20,7 +20,18 @@ Dada una palabra, buscarla en una frase y devolver cuántas veces aparece la fra
 la frase y la palabra deben ser parámetros de una función.
 Ejemplos:
 coincidencias("hola soy una palabra en una frase, PALABRA", "palabra") Devuelve 2
-coincidencias("Soy la frase","victor") //Devuelve 0 
+coincidencias("Soy la frase","victor") //Devuelve 0
+
+### dividirArray
+Dado un array, dividirlo en tantos subarrays
+como sea necesario basándons en un número que 
+indique su tamaño.
+Dividirlo en arrays de X elementos
+
+Ejemplos:
+dividirArray([7,8,9,10,5],2)
+Devuelve:
+[[7,8],[9,10],[5]]
 
 
 
