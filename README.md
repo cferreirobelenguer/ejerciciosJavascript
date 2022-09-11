@@ -33,6 +33,21 @@ dividirArray([7,8,9,10,5],2)
 Devuelve:
 [[7,8],[9,10],[5]]
 
+### gestionarDuplicados
+Crear una función que al pasarnos un array
+de nombres de archivo devolvamos un array con el
+mismo número de elementos pero donde los nombres
+que se repetían se anexe al final (k) donde k sería
+el número de veces que se encontró repetido
+
+Ejemplo:
+
+const files=["photo","postcard","photo","photo","video"]
+fixFiles(files)
+
+Devuelve:
+["photo","postcard","photo(1)","photo(2)",video]
+
 
 
 ## TEST Y PRUEBAS UNITARIAS DE EJERCICIOS CON JEST
