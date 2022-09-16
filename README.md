@@ -33,6 +33,7 @@ dividirArray([7,8,9,10,5],2)
 Devuelve:
 [[7,8],[9,10],[5]]
 
+
 ### buscarReno
 
 ¡Hemos perdido a un reno y falta poco más de una semana para Navidad! 😱
@@ -67,6 +68,18 @@ fixFiles(files)
 
 Devuelve:
 ["photo","postcard","photo(1)","photo(2)",video]
+
+## EJERCICIOS DE CALCULAR TIEMPO
+
+### juegoZelda
+    ¡Han anunciado un nuevo "The Legend of Zelda"! 
+    Se llamará "Tears of the Kingdom" y se lanzará el 12 de mayo de 2023.
+    Pero, ¿recuerdas cuánto tiempo ha pasado entre los distintos
+    "The Legend of Zelda" de la historia?
+    Crea un programa que calcule cuántos años y días hay entre 2 juegos de Zelda
+    que tú selecciones.
+    - Debes buscar cada uno de los títulos y su día de lanzamiento 
+    (si no encuentras el día exacto puedes usar el mes, o incluso inventártelo)
 
 
 
