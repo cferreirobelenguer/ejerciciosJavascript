@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1663332771540" clover="3.2.0">
-  <project timestamp="1663332771543" name="All files">
-    <metrics statements="271" coveredstatements="271" conditionals="40" coveredconditionals="40" methods="8" coveredmethods="8" elements="319" coveredelements="319" complexity="0" loc="271" ncloc="271" packages="8" files="8" classes="8"/>
+<coverage generated="1663334005592" clover="3.2.0">
+  <project timestamp="1663334005592" name="All files">
+    <metrics statements="298" coveredstatements="298" conditionals="45" coveredconditionals="45" methods="9" coveredmethods="9" elements="352" coveredelements="352" complexity="0" loc="298" ncloc="298" packages="9" files="9" classes="9"/>
     <package name="buscarPalabra">
       <metrics statements="35" coveredstatements="35" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
       <file name="buscarPalabra.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\buscarPalabra\buscarPalabra.js">
@@ -319,6 +319,39 @@
         <line num="20" count="2" type="stmt"/>
         <line num="21" count="2" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="repetirPalabra">
+      <metrics statements="27" coveredstatements="27" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="repetirPalabra.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\repetirPalabra\repetirPalabra.js">
+        <metrics statements="27" coveredstatements="27" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
       </file>
     </package>
   </project>

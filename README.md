@@ -9,6 +9,16 @@ Dados dos números, devolver cuantos números IMPARES hay entre ellos
 Los palindromos son palabras que se leen igual aun
 estando a la inversa. Decir si una palabra es palíndromo o no
 
+### repetirPalabra
+Dado un string y un número, repetir el
+string tantas veces como el número indique. 
+
+Ejemplos:
+repiteme("victor",2)
+
+Devuelve:
+victorvictor
+
 ## LISTAS, MATRICES Y MAPAS
 
 ### mostrarSecuencia
