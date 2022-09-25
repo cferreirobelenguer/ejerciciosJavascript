@@ -19,6 +19,12 @@ repiteme("victor",2)
 Devuelve:
 victorvictor
 
+### BinarioDecimal
+DE BINARIO A DECIMAL
+Enunciado: Crea un programa se encargue de transformar un número binario
+ * a decimal sin utilizar funciones propias del lenguaje que 
+ * lo hagan directamente.
+
 ## LISTAS, MATRICES Y MAPAS
 
 ### mostrarSecuencia

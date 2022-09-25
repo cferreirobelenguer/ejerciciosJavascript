@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1663334005592" clover="3.2.0">
-  <project timestamp="1663334005592" name="All files">
-    <metrics statements="298" coveredstatements="298" conditionals="45" coveredconditionals="45" methods="9" coveredmethods="9" elements="352" coveredelements="352" complexity="0" loc="298" ncloc="298" packages="9" files="9" classes="9"/>
+<coverage generated="1664128028966" clover="3.2.0">
+  <project timestamp="1664128028967" name="All files">
+    <metrics statements="333" coveredstatements="316" conditionals="49" coveredconditionals="48" methods="10" coveredmethods="10" elements="392" coveredelements="374" complexity="0" loc="333" ncloc="333" packages="10" files="10" classes="10"/>
+    <package name="binarioDecimal">
+      <metrics statements="35" coveredstatements="18" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="binarioDecimal.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\binarioDecimal\binarioDecimal.js">
+        <metrics statements="35" coveredstatements="18" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="buscarPalabra">
       <metrics statements="35" coveredstatements="35" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
       <file name="buscarPalabra.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\buscarPalabra\buscarPalabra.js">

@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for gestionarDuplicados/gestionarDuplicados.js</title>
+    <title>Code coverage report for binarioDecimal/binarioDecimal.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -19,20 +19,20 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../index.html">All files</a> / <a href="index.html">gestionarDuplicados</a> gestionarDuplicados.js</h1>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">binarioDecimal</a> binarioDecimal.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">51.42% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>37/37</span>
+                <span class='fraction'>18/35</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">75% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>6/6</span>
+                <span class='fraction'>3/4</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">51.42% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>37/37</span>
+                <span class='fraction'>18/35</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line medium'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -97,16 +97,7 @@
 <a name='L32'></a><a href='#L32'>32</a>
 <a name='L33'></a><a href='#L33'>33</a>
 <a name='L34'></a><a href='#L34'>34</a>
-<a name='L35'></a><a href='#L35'>35</a>
-<a name='L36'></a><a href='#L36'>36</a>
-<a name='L37'></a><a href='#L37'>37</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<a name='L35'></a><a href='#L35'>35</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -117,61 +108,64 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">14x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">14x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">/* Crear una función que al pasarnos un array
-de nombres de archivo devolvamos un array con el
-mismo número de elementos pero donde los nombres
-que se repetían se anexe al final (k) donde k sería
-el número de veces que se encontró repetido
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">/*ç
+DE BINARIO A DECIMAL
+Enunciado: Crea un programa se encargue de transformar un número binario
+ * a decimal sin utilizar funciones propias del lenguaje que 
+ * lo hagan directamente.
 &nbsp;
-Ejemplo:
-&nbsp;
-const files=["photo","postcard","photo","photo","video"]
-fixFiles(files)
-&nbsp;
-Devuelve:
-["photo","postcard","photo(1)","photo(2)",video]
 */
 &nbsp;
-const gestionarRepes=(lista)=&gt;{
-    let listaTotal={};
-    if(lista.length&gt;0){
-        let resultado = lista.map((f) =&gt; {
-            if(!(listaTotal.hasOwnProperty(f)==true)){
-                listaTotal[f]=1
-                return f
-            }else{
-                let nombre=f+"("+listaTotal[f]+")"
-                listaTotal[f]+=1
-                return nombre
-    
-            }
-        })
-        return resultado
-    }else{
-        return false
-    }
+const convertir=(num)=&gt;{
+    //pasamos el número a cadena
+    let numString=num.toString()
+<span class="branch-0 cbranch-no" title="branch not covered" >    if(numString.length&gt;0){</span>
+<span class="cstat-no" title="statement not covered" >        //invertimos cadena</span>
+<span class="cstat-no" title="statement not covered" >        let cadenaNueva=numString.split("").reverse().join("");</span>
+<span class="cstat-no" title="statement not covered" >        let suma=0</span>
+<span class="cstat-no" title="statement not covered" >        //recorremos la cadena invertida al revés para que la posición 7 sea la que debería ser la posición 0</span>
+<span class="cstat-no" title="statement not covered" >        for(let i=cadenaNueva.length-1;i&gt;=0;i--){</span>
+<span class="cstat-no" title="statement not covered" >        </span>
+<span class="cstat-no" title="statement not covered" >            console.log("Posicion "+i+" letra "+cadenaNueva[i])</span>
+<span class="cstat-no" title="statement not covered" >            //Si el valor es 0 se calcula la potencia con la posición y se incrementa la suma</span>
+<span class="cstat-no" title="statement not covered" >            if(cadenaNueva[i]=='1'){</span>
+<span class="cstat-no" title="statement not covered" >                let potencia=2**i</span>
+<span class="cstat-no" title="statement not covered" >                suma+=potencia</span>
+<span class="cstat-no" title="statement not covered" >            }</span>
+<span class="cstat-no" title="statement not covered" >        }</span>
+<span class="cstat-no" title="statement not covered" >        return suma</span>
+<span class="cstat-no" title="statement not covered" >    }else{</span>
+<span class="cstat-no" title="statement not covered" >        return 0</span>
+<span class="cstat-no" title="statement not covered" >    }</span>
     
     
 }
-module.exports=gestionarRepes</pre></td></tr></table></pre>
+&nbsp;
+&nbsp;
+module.exports=convertir</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
