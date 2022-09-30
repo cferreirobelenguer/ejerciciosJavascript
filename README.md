@@ -88,16 +88,24 @@ Devuelve:
 ## EJERCICIOS DE CALCULAR TIEMPO
 
 ### juegoZelda
-    ¡Han anunciado un nuevo "The Legend of Zelda"! 
-    Se llamará "Tears of the Kingdom" y se lanzará el 12 de mayo de 2023.
-    Pero, ¿recuerdas cuánto tiempo ha pasado entre los distintos
-    "The Legend of Zelda" de la historia?
-    Crea un programa que calcule cuántos años y días hay entre 2 juegos de Zelda
-    que tú selecciones.
-    - Debes buscar cada uno de los títulos y su día de lanzamiento 
-    (si no encuentras el día exacto puedes usar el mes, o incluso inventártelo)
+¡Han anunciado un nuevo "The Legend of Zelda"! 
+Se llamará "Tears of the Kingdom" y se lanzará el 12 de mayo de 2023.
+Pero, ¿recuerdas cuánto tiempo ha pasado entre los distintos
+"The Legend of Zelda" de la historia?
+Crea un programa que calcule cuántos años y días hay entre 2 juegos de Zelda
+que tú selecciones.
+- Debes buscar cada uno de los títulos y su día de lanzamiento 
+(si no encuentras el día exacto puedes usar el mes, o incluso inventártelo)
 
+### Peticiones asíncronas
 
+## ApiGatos
+
+Consulta la api de gatos catfact  https://catfact.ninja/ de la siguiente manera:
+Primero consulta la api de manera que genere de manera random información de gatos, mediante setTimeOut que se imprima cada 5 segundos
+Segundo el usuario introduce mediante prompt una raza y se muestra la información de esta mediante console.log, que haga esta búsqueda
+hasta que el usuario escriba salir. Javascript es sensible a mayúsculas con lo cual el programa debe ser válido tanto para salir como para SALIR.
+Hacer el ejercicio con funciones asíncronas.
 
 ## TEST Y PRUEBAS UNITARIAS DE EJERCICIOS CON JEST
 
