@@ -5,6 +5,7 @@
   - LISTAS, MATRICES Y MAPAS
   - DATE
   - PETICIONES ASÍNCRONAS
+  - OBJETOS
   - TEST Y PRUEBAS UNITARIAS CON JEST
 
 ## ESTRUCTURAS DE CONTROL Y CADENAS DE CARACTERES
@@ -92,6 +93,13 @@ fixFiles(files)
 Devuelve:
 ["photo","postcard","photo(1)","photo(2)",video]
 
+## buscarIndice
+
+Crear una función find que dado un array 
+de números desordenados y un número cualquiera
+devuelva el índice del array del elemento o -1 
+si no lo encuentra
+
 ## EJERCICIOS DE CALCULAR TIEMPO
 
 ### juegoZelda
@@ -114,6 +122,20 @@ Segundo el usuario introduce mediante prompt una raza y se muestra la informaci�
 hasta que el usuario escriba salir. Javascript es sensible a mayúsculas con lo cual el programa debe ser válido tanto para salir como para SALIR.
 Hacer el ejercicio con funciones asíncronas.
 
+## funcionesAsincronas
+
+Hacer función asíncrona con fetch sin .then
+
+## objetosCoche
+
+Crear un componente Coche. El coche 
+tendrá como atributos, el color, marca,
+velocidad, matrícula, número de km, un 
+estado para ver si está apagado o encendido.
+Como acciones tendrá arrancar, acelerar, frenar
+y apagar
+
+
 ## TEST Y PRUEBAS UNITARIAS DE EJERCICIOS CON JEST
 
 ## INSTALACIÓN
@@ -128,6 +150,7 @@ package.json:
     "test": "jest"
   }
 }
+
 
 ## EJECUCIÓN DE TEST DESDE LA LÍNEA DE COMANDOS
 
