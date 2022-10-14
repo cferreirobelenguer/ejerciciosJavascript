@@ -6,6 +6,7 @@
   - DATE
   - PETICIONES ASÍNCRONAS
   - OBJETOS
+  - DOM
   - TEST Y PRUEBAS UNITARIAS CON JEST
 
 ## ESTRUCTURAS DE CONTROL Y CADENAS DE CARACTERES
@@ -134,6 +135,13 @@ velocidad, matrícula, número de km, un
 estado para ver si está apagado o encendido.
 Como acciones tendrá arrancar, acelerar, frenar
 y apagar
+
+## DOM
+
+Capturar todos los elementos de la tabla en un array de objetos
+Crear un fichero table.js y enlázalo con el fichero index.html
+Capturar todos los elementos de la tabla y guardarlos en un array de objetos. El nombre de las propiedades de este objeto será el nombre de cada columna
+Imprimir por consola
 
 
 ## TEST Y PRUEBAS UNITARIAS DE EJERCICIOS CON JEST
