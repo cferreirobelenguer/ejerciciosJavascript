@@ -136,9 +136,9 @@ que tú selecciones.
 - Debes buscar cada uno de los títulos y su día de lanzamiento 
 (si no encuentras el día exacto puedes usar el mes, o incluso inventártelo)
 
-### Peticiones asíncronas
+## Peticiones asíncronas
 
-## ApiGatos
+### ApiGatos
 
 Consulta la api de gatos catfact  https://catfact.ninja/ de la siguiente manera:
 Primero consulta la api de manera que genere de manera random información de gatos, mediante setTimeOut que se imprima cada 5 segundos
@@ -146,11 +146,12 @@ Segundo el usuario introduce mediante prompt una raza y se muestra la informaci�
 hasta que el usuario escriba salir. Javascript es sensible a mayúsculas con lo cual el programa debe ser válido tanto para salir como para SALIR.
 Hacer el ejercicio con funciones asíncronas.
 
-## funcionesAsincronas
+### funcionesAsincronas
 
-Hacer función asíncrona con fetch sin .then
+Hacer función asíncrona con fetch  y asyn await sin .then
 
-## objetosCoche
+## OBJETOS
+### objetosCoche
 
 Crear un componente Coche. El coche 
 tendrá como atributos, el color, marca,
@@ -159,8 +160,19 @@ estado para ver si está apagado o encendido.
 Como acciones tendrá arrancar, acelerar, frenar
 y apagar
 
+### cifradoCesar
+
+En la antigüedad no existía la encriptación ni el cifrado
+de mensajes como los conocemos en la actualidad. 
+Una de las primeras ideas que tuvieron para ocultar mensajes 
+fue reemplazar las letras de cada palabra por otras letras, 
+entonces sólo el receptor del mensaje sabía qué letra iba en 
+lugar de cada otra y de esa manera entendía el mensaje que le 
+fue enviado. Hagamos esto mismo pero con código.
+
 ## DOM
 
+### tabla
 Capturar todos los elementos de la tabla en un array de objetos
 Crear un fichero table.js y enlázalo con el fichero index.html
 Capturar todos los elementos de la tabla y guardarlos en un array de objetos. El nombre de las propiedades de este objeto será el nombre de cada columna
