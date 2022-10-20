@@ -11,6 +11,16 @@
 
 ## ESTRUCTURAS DE CONTROL Y CADENAS DE CARACTERES
 
+### generadorContra
+
+Generador de contraseñas con salida por consola
+
+Cada vez es más difícil cumplir con los requerimientos de los formularios 
+que nos piden contraseñas seguras que incluyan números, caracteres especiales, 
+minúsculas, mayúsculas, etc. Escribiremos la lógica necesaria para obtener 
+contraseñas aleatorias seguras que podremos usar en cualquier cuenta que 
+tengamos en internet.
+La contraseña tiene que tener letras mayúsculas y minúsculas, caracteres y números
 ### cambiarTemperatura
 
 Pasar de celsius a fahrenheit o a la inversa
