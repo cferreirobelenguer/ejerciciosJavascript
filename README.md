@@ -151,6 +151,22 @@ Hacer el ejercicio con funciones asíncronas.
 Hacer función asíncrona con fetch  y asyn await sin .then
 
 ## OBJETOS
+
+### Tamatgochi
+
+EJERCICIO TAMAGOTCHI
+
+- El tamagotchi tiene tres atributos: hambre (`hunger`), energía (`energy`) y humor (`mood`).
+- **La puntuación inicial de cada uno de los atributos es `4` .**
+- Cuando el tamagotchi realiza una acción (comer, jugar o dormir), responde mostrando su estado:
+    - `:-)` (contento) **cuando el humor está por encima de 8**
+    - `(-_-)` (cansado) **cuando la energía esté por debajo de 3**
+    - `(-_-) zZZ` (dormido) **cuando la energía llega a 0 o cuando se le ordena dormir.**
+    - `ఠ_ఠ` (enfadado) **cuando el humor esté por debajo de 2**
+    - `:-|` (normal) **resto de casos**
+- Cuando el tamagotchi juega, el hambre y el humor aumentan en un punto, la energía disminuye en un punto.
+- Cuando el tamagotchi come, el hambre disminuye 2 puntos, la energía disminuye en 1 punto.
+- Cuando el tamagotchi duerme, la energía aumenta dos puntos.
 ### objetosCoche
 
 Crear un componente Coche. El coche 
