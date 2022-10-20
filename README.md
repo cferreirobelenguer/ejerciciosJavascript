@@ -11,6 +11,11 @@
 
 ## ESTRUCTURAS DE CONTROL Y CADENAS DE CARACTERES
 
+### cambiarTemperatura
+
+Pasar de celsius a fahrenheit o a la inversa
+en función de la entrada que reciba el programa.
+El programa siempre debe recibir C° o F°; en caso contrario da error
 ### impares
 Dados dos números, devolver cuantos números IMPARES hay entre ellos
 
