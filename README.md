@@ -41,6 +41,14 @@ Enunciado: Crea un programa se encargue de transformar un número binario
 
 ## LISTAS, MATRICES Y MAPAS
 
+### escribirMovil
+Escribir un mensaje de texto con el teléfono Nokia 1100
+
+En los años 2000 los teléfonos no tenían teclado en pantalla. 
+Traían números del 0 al 9 con los que se debía escribir presionando 
+una o más veces cada tecla según la letra que necesitabas. 
+Escribiremos un programa que nos ayudará a saber cuáles son las 
+teclas necesarias para escribir la frase que le indiquemos al sistema.
 ### mostrarSecuencia
 Dado un número mostrar todos los números desde ese al 0 de 8 en 8
 en una lista con guiones donde cada número debe empezar por nª
