@@ -6,7 +6,9 @@
   - DATE
   - PETICIONES ASÍNCRONAS
   - OBJETOS
+  - OBJETO LITERAL
   - DOM
+  - TYPESCRIPT
   - TEST Y PRUEBAS UNITARIAS CON JEST
 
 ## ESTRUCTURAS DE CONTROL Y CADENAS DE CARACTERES
@@ -50,6 +52,7 @@ Enunciado: Crea un programa se encargue de transformar un número binario
  * lo hagan directamente.
 
 ## LISTAS, MATRICES Y MAPAS
+
 
 ### escribirMovil
 Escribir un mensaje de texto con el teléfono Nokia 1100
@@ -176,6 +179,32 @@ estado para ver si está apagado o encendido.
 Como acciones tendrá arrancar, acelerar, frenar
 y apagar
 
+## OBJETO LITERAL
+
+### halloween
+
+Este es un reto especial por Halloween
+Deberemos realizar un programa al que le indiquemos si queremos "Truco o Trato"
+y una lista de personas con las siguientes propiedades:
+- Nombre de la niña o niño
+- Edad
+- Altura en centímetros
+
+Si las personas han pedido truco, el programa retornará sustos (aleatorios)
+siguiendo estos criterios:
+
+- Un susto por cada 2 letras del nombre por persona
+- Dos sustos por cada edad que sea un número par
+- Tres sustos por cada 100 cm de altura entre todas las personas
+- Sustos 🦇🕷👻☠💀🎃
+
+Si las personas han pedido trato, el programa retornará dulces aleatorios
+siguiendo los siguientes criterios:
+- Un dulce por cada letra de nombre
+- Un dulce por cada 3 años cumplidos hasta un mínimo de 10 años por persona
+- Dos dulces por cada 50 cm de altura hasta un mínimo de 150 cm por persona
+- Dulces: 🥐🧀🥞🍩🍨🍧🍦🍪🎂
+
 ### cifradoCesar
 
 En la antigüedad no existía la encriptación ni el cifrado
@@ -194,6 +223,16 @@ Crear un fichero table.js y enlázalo con el fichero index.html
 Capturar todos los elementos de la tabla y guardarlos en un array de objetos. El nombre de las propiedades de este objeto será el nombre de cada columna
 Imprimir por consola
 
+## TYPESCRIPT
+
+crear un objeto usando la api de paises en el que cojamos los siguientes atributos:
+nombre
+capital
+moneda
+region
+independiente
+
+Imprimir los resultados con console.log
 
 ## TEST Y PRUEBAS UNITARIAS DE EJERCICIOS CON JEST
 
