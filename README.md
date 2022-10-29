@@ -225,6 +225,7 @@ Imprimir por consola
 
 ## TYPESCRIPT
 
+### typescriptBanderas
 crear un objeto usando la api de paises en el que cojamos los siguientes atributos:
 nombre
 capital
@@ -233,6 +234,13 @@ region
 independiente
 
 Imprimir los resultados con console.log
+
+### typescriptCarrito
+
+Crear tres artículos
+Crear una función que cree un carrito con artículos repes y calcule su importe total a pagar.
+
+
 
 ## TEST Y PRUEBAS UNITARIAS DE EJERCICIOS CON JEST
 
