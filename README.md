@@ -240,7 +240,12 @@ Imprimir los resultados con console.log
 Crear tres artículos
 Crear una función que cree un carrito con artículos repes y calcule su importe total a pagar.
 
+### typescriptRombo
 
+Crear una clase rombo con dos propiedades
+diagonal vertical y diagonal horizontal, crear función
+que calcule area.
+Retornar el resultado
 
 ## TEST Y PRUEBAS UNITARIAS DE EJERCICIOS CON JEST
 
