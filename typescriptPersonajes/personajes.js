@@ -18,10 +18,10 @@ var PERSONAJE = {
 var PERSONAJE = {
     nombre: "Miguelito",
     edad: 30,
-    aficion: "fútbol"
+    aficion: "futbol"
 };
 function imprimirPersona(PERSONAJE) {
-    if (PERSONAJE.aficion != "") {
+    if (PERSONAJE.aficion) {
         return "NOMBRE: " + PERSONAJE.nombre + "\nEDAD: " + PERSONAJE.edad + "\nAFICION: " + PERSONAJE.aficion;
     }
     else {

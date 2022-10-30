@@ -27,11 +27,11 @@ interface person{
 let PERSONAJE:person={
     nombre:"Miguelito",
     edad:30,
-    aficion:"fútbol"
+    aficion:"futbol"
 }
 
 function imprimirPersona(PERSONAJE:person,):string{
-    if(PERSONAJE.aficion!=""){
+    if(PERSONAJE.aficion){
         return "NOMBRE: "+PERSONAJE.nombre+"\nEDAD: "+PERSONAJE.edad+"\nAFICION: "+PERSONAJE.aficion
     }else{
         return "NOMBRE: "+PERSONAJE.nombre+"\nEDAD: "+PERSONAJE.edad
