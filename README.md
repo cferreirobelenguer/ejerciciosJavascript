@@ -284,6 +284,13 @@ donde   NOMBRE = obligatorio
         PODER  = opcional
         ARMA   = por defecto = "arco"
 
+### typescriptProgramas
+
+EJERCÍCIO DE DOM Y TYPESCRIPT
+Se introducen datos en un input y se meten automáticamente dentro de un listado que se lee
+dentro del html en formato lista <li></li>
+Utilizar DOM y typescript
+
 ## TEST Y PRUEBAS UNITARIAS DE EJERCICIOS CON JEST
 
 ## INSTALACIÓN
