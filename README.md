@@ -247,6 +247,25 @@ diagonal vertical y diagonal horizontal, crear función
 que calcule area.
 Retornar el resultado
 
+### typescriptPersonajes
+
+EJERCÍCIO DE TIPADO DE VARIABLES EN TYPESCRIPT
+Este código está hecho en JavaScript y hay que pasarlo a TypeScript empleando variables “let” y constantes.
+Crear función que retorne el nombre y la edad a través del objeto. Afición es opcional en la función.
+
+El código javaScript sería así:
+
+var nombre;
+var aficion="fútbol"
+nombre = "Miguelo";
+var edad;
+edad = 30;
+var PERSONAJE = {
+    nombre: nombre,
+    edad: edad
+    aficion:aficion
+};
+
 ## TEST Y PRUEBAS UNITARIAS DE EJERCICIOS CON JEST
 
 ## INSTALACIÓN
