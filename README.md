@@ -291,6 +291,14 @@ Se introducen datos en un input y se meten automáticamente dentro de un listado
 dentro del html en formato lista <li></li>
 Utilizar DOM y typescript
 
+### typescript_dictionary
+
+Diccionario
+El usuario introduce una palabra en inglés en el formulario y el programa
+dice su significado, antónimos y sinónimos (estos últimos en caso de que los tenga)
+Se usa la API https://dictionaryapi.dev/
+
+
 ## TEST Y PRUEBAS UNITARIAS DE EJERCICIOS CON JEST
 
 ## INSTALACIÓN
