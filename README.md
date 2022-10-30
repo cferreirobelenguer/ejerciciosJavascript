@@ -266,6 +266,24 @@ var PERSONAJE = {
     aficion:aficion
 };
 
+### typescriptSpiderman
+
+Crear una interface en TypeScript a partir de este código JavaScript:
+
+var spiderman = {
+    nombre: "Peter parket",
+    poderes: ["trepar", "fuerza", "agilidad", "telas de araña"]
+
+Crear función que imprima todos los datos sin return
+
+### typescriptFunciones
+
+EJERCÍCIOS DE FUNCIONES:
+Función con parametros obligatorios, opcionales y por defecto
+donde   NOMBRE = obligatorio
+        PODER  = opcional
+        ARMA   = por defecto = "arco"
+
 ## TEST Y PRUEBAS UNITARIAS DE EJERCICIOS CON JEST
 
 ## INSTALACIÓN
