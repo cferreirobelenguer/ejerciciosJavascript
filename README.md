@@ -298,6 +298,19 @@ El usuario introduce una palabra en inglés en el formulario y el programa
 dice su significado, antónimos y sinónimos (estos últimos en caso de que los tenga)
 Se usa la API https://dictionaryapi.dev/
 
+### typescript_contenedorAgua
+
+Enunciado: Dado un array de números enteros positivos, donde cada uno representa unidades
+de bloques apilados, debemos calcular cuantas unidades de agua quedarán atrapadas entre ellos.
+
+- Ejemplo: Dado el array [4, 0, 3, 6, 1, 3].
+         ⏹
+         ⏹
+   ⏹💧💧⏹
+   ⏹💧⏹⏹💧⏹
+   ⏹💧⏹⏹💧⏹
+   ⏹💧⏹⏹⏹⏹
+  Representando bloque con ⏹︎ y agua con 💧
 
 ## TEST Y PRUEBAS UNITARIAS DE EJERCICIOS CON JEST
 
