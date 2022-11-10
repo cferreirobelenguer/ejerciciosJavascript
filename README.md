@@ -387,6 +387,15 @@ VehiculoMaritulo tiene tres métodods:
 Crear un método procesarTerrestre que llame a los métodos de la clase VehiculoTerrestre
 Crear un método procesarMaritimo que llame a los métodos de la clase VehículoMarítimo
 
+### typescript_bombero
+
+TRABAJANDO CON GETTER Y SETTER:
+Define una clase Bombero considerando los siguientes atributos de clase: nombre (String), apellidos (String), 
+edad (int), casado (boolean), especialista (boolean). Define un constructor que reciba los parámetros necesarios 
+para la inicialización y los métodos para poder establecer y obtener los valores de los atributos. 
+Compila el código para comprobar que no presenta errores, crea un objeto y comprueba que se inicializa correctamente 
+consultando el valor de sus atributos después de haber creado el objeto. 
+
 ## WEB COMPONENTS
 
 ## WebComponents
