@@ -346,6 +346,27 @@ const player2 = {
 player1.play();
 player2.play();
 
+### typescript_herencia
+
+
+Enunciado:
+
+Crea 4 clases,
+Usuario (clase abstracta),
+Estudiante (hereda de Usuario),
+Invitado (hereda de Usuario)
+Administrador (hereda de Usuario y tiene nivel),
+Cada uno con sus atributos (no hacen falta métodos).
+Debes crear un objeto literal con una lista de nombres y passwords.
+
+Para cada elemento:
+Si es de tipo Invitado, debes mostrarle el mensaje "No estás autorizado a entrar en esta lección".
+Si es de tipo Estudiante, debes comprobar que su $nombre y $password existe y mostrar el mensaje "Bienvenid@ a OpenVitae, $nombre".
+Si es de tipo Administrador y su nivel es 1, debes mostrar el mensaje "Tu nivel es insuficiente".
+Si es de tipo Administrador y su nivel es 2, debes mostrar el mensaje "Tu nivel es el correcto".
+
+
+
 ## WEB COMPONENTS
 
 ## WebComponents
