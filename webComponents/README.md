@@ -1,0 +1,3 @@
+## TRABAJANDO CON WEB COMPONENTS, CUSTOM ELEMENTS, SLOTS Y SHADOWROOT
+
+![image](https://user-images.githubusercontent.com/88061350/200636574-83a3896c-0598-43de-9cb3-6b5a5120a70e.png)
