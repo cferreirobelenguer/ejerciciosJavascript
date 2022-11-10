@@ -371,6 +371,22 @@ Construir una clase Factura que descienda de la clase Precio (Precio tiene los a
 específicos llamados emisor y cliente y, al menos, un método llamado
 imprimirFactura.
 
+### typescript_Coche
+
+Crear una interfaz Vehiculo de la cual heredan VehiculoTerrestre y VehiculoMaritimo
+Vehiculo tiene un atributo fabricante y tres métodos:
+    . arrancarMotor
+    . repostar
+    . detenerMotor
+VehiculoTerrestre tiene un método específico que es conducir
+VehiculoMaritulo tiene tres métodods:
+    . sonarSirena
+    . encenderChimenea
+    . detenerChimenea
+
+Crear un método procesarTerrestre que llame a los métodos de la clase VehiculoTerrestre
+Crear un método procesarMaritimo que llame a los métodos de la clase VehículoMarítimo
+
 ## WEB COMPONENTS
 
 ## WebComponents
