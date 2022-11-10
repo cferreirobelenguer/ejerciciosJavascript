@@ -9,6 +9,7 @@
   - OBJETO LITERAL
   - DOM
   - TYPESCRIPT
+  - WEBCOMPONENTS
   - TEST Y PRUEBAS UNITARIAS CON JEST
 
 ## ESTRUCTURAS DE CONTROL Y CADENAS DE CARACTERES
@@ -311,6 +312,12 @@ de bloques apilados, debemos calcular cuantas unidades de agua quedarán atrapad
    ⏹💧⏹⏹💧⏹
    ⏹💧⏹⏹⏹⏹
   Representando bloque con ⏹︎ y agua con 💧
+
+## WEB COMPONENTS
+
+## WebComponents
+
+Crear un custom element que trabaje con slots y tenga dos imágenes de dos apis de animales. Aplicar estilos con shadow root.
 
 ## TEST Y PRUEBAS UNITARIAS DE EJERCICIOS CON JEST
 
