@@ -313,6 +313,39 @@ de bloques apilados, debemos calcular cuantas unidades de agua quedarán atrapad
    ⏹💧⏹⏹⏹⏹
   Representando bloque con ⏹︎ y agua con 💧
 
+### typescript_objetoLiteral
+
+En una nueva línea después del código existente,
+cambia el valor de la propiedad 'suTurno' para
+player1 a true, usando la notación de puntos para
+ver este mensaje en consola: "Bob esta jugando ahora!
+Trabajar el código en typescript tipando cada una de las variables.
+
+const player1 = {
+    nombre: 'Bob',
+    color: 'Amarillo',
+    suTurno: false,
+    play: function(){
+        if (this.suTurno) {
+            console.log(`${this.nombre} esta jugando ahora!`);
+         }
+    }
+}
+
+const player2 = {
+    nombre: 'Patricio',
+    color: 'Rosa',
+    suTurno: false,
+    play: function(){
+        if (this.suTurno) {
+            console.log(`${this.nombre} esta jugando ahora!`);
+         }
+    }
+}
+
+player1.play();
+player2.play();
+
 ## WEB COMPONENTS
 
 ## WebComponents
