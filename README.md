@@ -365,7 +365,11 @@ Si es de tipo Estudiante, debes comprobar que su $nombre y $password existe y mo
 Si es de tipo Administrador y su nivel es 1, debes mostrar el mensaje "Tu nivel es insuficiente".
 Si es de tipo Administrador y su nivel es 2, debes mostrar el mensaje "Tu nivel es el correcto".
 
+### typescript_imprimirFactura
 
+Construir una clase Factura que descienda de la clase Precio (Precio tiene los atributos precio e iva) y que incluya dos atributos
+específicos llamados emisor y cliente y, al menos, un método llamado
+imprimirFactura.
 
 ## WEB COMPONENTS
 
