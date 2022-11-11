@@ -2,6 +2,7 @@
 
 ## CONTENIDO
   - ESTRUCTURAS DE CONTROL Y CADENAS DE CARACTERES
+  - FUNCIONES
   - LISTAS, MATRICES Y MAPAS
   - DATE
   - PETICIONES ASÍNCRONAS
@@ -51,6 +52,24 @@ DE BINARIO A DECIMAL
 Enunciado: Crea un programa se encargue de transformar un número binario
  * a decimal sin utilizar funciones propias del lenguaje que 
  * lo hagan directamente.
+
+## FUNCIONES
+
+### cambiarFuncion
+
+Dado el siguiente código:
+
+function getUsuarioActivo(nombre){
+    return{
+        uid:'ABC567',
+        username:nombre
+    }
+};
+const usuarioActivo=getUsuarioActivo('Fernando')
+console.log(usuarioActivo)
+
+Cambiar a función Felcha
+Tiene que retornar un objeto implícito
 
 ## LISTAS, MATRICES Y MAPAS
 
