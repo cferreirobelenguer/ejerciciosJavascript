@@ -54,6 +54,12 @@ Enunciado: Crea un programa se encargue de transformar un número binario
 
 ## LISTAS, MATRICES Y MAPAS
 
+### datosInput
+
+Ejercício de arrays:
+Introducir números separados por coma en el input del formulario
+Coger esos datos mediante dom y convertirlos en una lista iterable
+Al pulsar calcular se va a calcular la suma de todos los números de la lista
 
 ### escribirMovil
 Escribir un mensaje de texto con el teléfono Nokia 1100
