@@ -216,6 +216,18 @@ entonces sólo el receptor del mensaje sabía qué letra iba en
 lugar de cada otra y de esa manera entendía el mensaje que le 
 fue enviado. Hagamos esto mismo pero con código.
 
+### Deportista
+
+Ejercício de objeto literal:
+Objeto literal deportista ya definido, que tiene los siguientes atributos: 
+nombre, energia, experiencia. Queremos poder pedirle al deportista que entrene. 
+Para esto, nuestro trabajo va a ser completar la función entrenarHoras. 
+La función entrenarHoras tiene las siguientes tres características: Recibe por 
+parámetro la cantidad de horas. Resta a su energía (this.energia) la cantidad de 
+horas x 5. Incrementa su experiencia (this.experiencia) la cantidad de horas x 2. 
+Una vez definida la función, podemos ejecutar el código y ver cómo va variando la energía 
+y experiencia del deportista por consola.
+
 ## DOM
 
 ### tabla
