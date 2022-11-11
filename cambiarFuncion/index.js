@@ -15,12 +15,13 @@ Cambiar a función Felcha
 Tiene que retornar un objeto implícito*/
 
 
-const getUsuarioActivo=(nombre)=>{
-    return(
+const getUsuarioActivo=(nombre)=>
+    (
+    
         {
             uid:'ABC567',
             username:nombre
         }
     )
-}
+
 console.log(getUsuarioActivo('Fernando'))
