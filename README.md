@@ -189,6 +189,12 @@ Hacer función asíncrona con fetch  y asyn await sin .then
 
 ## OBJETOS
 
+### DESESTRUCTURACIÓN DE OBJETOS
+
+DESESTRUCTURACIÓN DE OBJETOS
+
+Tenemos un objeto superheroe y se pide desestructurarlo para poder obtener en console cada uno de sus atributos
+
 ### Tamatgochi
 
 EJERCICIO TAMAGOTCHI
