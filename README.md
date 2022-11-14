@@ -153,6 +153,14 @@ de números desordenados y un número cualquiera
 devuelva el índice del array del elemento o -1 
 si no lo encuentra
 
+## desestructuracionArreglos
+
+EJERCICIO DE DESESTRUCTURACIÓN DE ARREGLOS:
+Tenemos una función que retorna un valor pasado por parámetro y una función
+    Se pide hacer una desestructuración de arreglos:
+        - El primer valor se va a llamar nombre
+        - El segundo valor se va a llamar setNombre
+
 ## EJERCICIOS DE CALCULAR TIEMPO
 
 ### juegoZelda
@@ -267,7 +275,7 @@ EJERCÍCIO DE FETCH API Y DOM
 Consultar api en GIPHY y escribir los resultados a través del dom
     - Usar async await en la petición
     - Poner un título e imagen de gif a través del dom
-    
+
 
 ## TYPESCRIPT
 
