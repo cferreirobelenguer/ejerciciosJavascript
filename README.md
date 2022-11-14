@@ -1,4 +1,4 @@
-# EJERCICIOS DE JAVASCRIPT CON TEST UNITARIOS PARA REFORZAR LÓGICA EN JAVASCRIPT
+# EJERCICIOS DE JAVASCRIPT Y TIPESCRIPT
 
 ## CONTENIDO
   - ESTRUCTURAS DE CONTROL Y CADENAS DE CARACTERES
@@ -260,6 +260,14 @@ Capturar todos los elementos de la tabla en un array de objetos
 Crear un fichero table.js y enlázalo con el fichero index.html
 Capturar todos los elementos de la tabla y guardarlos en un array de objetos. El nombre de las propiedades de este objeto será el nombre de cada columna
 Imprimir por consola
+
+### fetchAPI
+
+EJERCÍCIO DE FETCH API Y DOM
+Consultar api en GIPHY y escribir los resultados a través del dom
+    - Usar async await en la petición
+    - Poner un título e imagen de gif a través del dom
+    
 
 ## TYPESCRIPT
 
