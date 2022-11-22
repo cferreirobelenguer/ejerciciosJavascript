@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1664128028966" clover="3.2.0">
-  <project timestamp="1664128028967" name="All files">
-    <metrics statements="333" coveredstatements="316" conditionals="49" coveredconditionals="48" methods="10" coveredmethods="10" elements="392" coveredelements="374" complexity="0" loc="333" ncloc="333" packages="10" files="10" classes="10"/>
+<coverage generated="1669108173159" clover="3.2.0">
+  <project timestamp="1669108173160" name="All files">
+    <metrics statements="353" coveredstatements="351" conditionals="51" coveredconditionals="50" methods="12" coveredmethods="12" elements="416" coveredelements="413" complexity="0" loc="353" ncloc="353" packages="12" files="12" classes="12"/>
     <package name="binarioDecimal">
-      <metrics statements="35" coveredstatements="18" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
-      <file name="binarioDecimal.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\binarioDecimal\binarioDecimal.js">
-        <metrics statements="35" coveredstatements="18" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <metrics statements="35" coveredstatements="33" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="binarioDecimal.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\binarioDecimal\binarioDecimal.js">
+        <metrics statements="35" coveredstatements="33" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -17,22 +17,22 @@
         <line num="9" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="10" count="3" type="stmt"/>
         <line num="11" count="3" type="stmt"/>
-        <line num="12" count="3" type="cond" truecount="0" falsecount="1"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="cond" truecount="1" falsecount="0"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="cond" truecount="1" falsecount="0"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="17" type="stmt"/>
+        <line num="19" count="17" type="stmt"/>
+        <line num="20" count="17" type="stmt"/>
+        <line num="21" count="17" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="7" type="stmt"/>
+        <line num="23" count="7" type="stmt"/>
+        <line num="24" count="7" type="stmt"/>
+        <line num="25" count="17" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="27" count="3" type="cond" truecount="0" falsecount="1"/>
         <line num="28" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
         <line num="30" count="3" type="stmt"/>
@@ -45,7 +45,7 @@
     </package>
     <package name="buscarPalabra">
       <metrics statements="35" coveredstatements="35" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-      <file name="buscarPalabra.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\buscarPalabra\buscarPalabra.js">
+      <file name="buscarPalabra.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\buscarPalabra\buscarPalabra.js">
         <metrics statements="35" coveredstatements="35" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -58,21 +58,21 @@
         <line num="9" count="3" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
         <line num="11" count="3" type="stmt"/>
-        <line num="12" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="16" count="1" type="cond" truecount="2" falsecount="0"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
+        <line num="12" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="27" count="1" type="stmt"/>
         <line num="28" count="1" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
@@ -86,7 +86,7 @@
     </package>
     <package name="buscarReno">
       <metrics statements="56" coveredstatements="56" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
-      <file name="buscarReno.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\buscarReno\buscarReno.js">
+      <file name="buscarReno.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\buscarReno\buscarReno.js">
         <metrics statements="56" coveredstatements="56" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -108,17 +108,17 @@
         <line num="18" count="1" type="stmt"/>
         <line num="19" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="20" count="4" type="stmt"/>
-        <line num="21" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="28" count="1" type="stmt"/>
-        <line num="29" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="31" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="29" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="13" type="stmt"/>
+        <line num="31" count="13" type="cond" truecount="1" falsecount="0"/>
         <line num="32" count="1" type="stmt"/>
         <line num="33" count="1" type="stmt"/>
         <line num="34" count="1" type="stmt"/>
@@ -126,16 +126,16 @@
         <line num="36" count="1" type="stmt"/>
         <line num="37" count="1" type="stmt"/>
         <line num="38" count="1" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
-        <line num="41" count="1" type="cond" truecount="2" falsecount="0"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="43" count="1" type="stmt"/>
-        <line num="44" count="1" type="stmt"/>
+        <line num="39" count="13" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="41" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="45" count="1" type="stmt"/>
         <line num="46" count="1" type="stmt"/>
         <line num="47" count="1" type="stmt"/>
-        <line num="48" count="1" type="stmt"/>
+        <line num="48" count="4" type="cond" truecount="1" falsecount="0"/>
         <line num="49" count="1" type="stmt"/>
         <line num="50" count="1" type="stmt"/>
         <line num="51" count="1" type="stmt"/>
@@ -148,7 +148,7 @@
     </package>
     <package name="dividirArray">
       <metrics statements="43" coveredstatements="43" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-      <file name="dividirArray.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\dividirArray\dividirArray.js">
+      <file name="dividirArray.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\dividirArray\dividirArray.js">
         <metrics statements="43" coveredstatements="43" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -166,26 +166,26 @@
         <line num="14" count="4" type="stmt"/>
         <line num="15" count="4" type="stmt"/>
         <line num="16" count="4" type="stmt"/>
-        <line num="17" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="28" count="1" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="31" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
+        <line num="17" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="12" type="stmt"/>
+        <line num="21" count="12" type="stmt"/>
+        <line num="22" count="12" type="stmt"/>
+        <line num="23" count="12" type="stmt"/>
+        <line num="24" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="29" count="12" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="31" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="4" type="cond" truecount="1" falsecount="0"/>
         <line num="37" count="1" type="stmt"/>
         <line num="38" count="1" type="stmt"/>
         <line num="39" count="1" type="stmt"/>
@@ -197,7 +197,7 @@
     </package>
     <package name="gestionarDuplicados">
       <metrics statements="37" coveredstatements="37" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-      <file name="gestionarDuplicados.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\gestionarDuplicados\gestionarDuplicados.js">
+      <file name="gestionarDuplicados.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\gestionarDuplicados\gestionarDuplicados.js">
         <metrics statements="37" coveredstatements="37" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -216,20 +216,20 @@
         <line num="15" count="1" type="stmt"/>
         <line num="16" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="17" count="3" type="stmt"/>
-        <line num="18" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="19" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="20" count="14" type="cond" truecount="2" falsecount="0"/>
-        <line num="21" count="6" type="stmt"/>
-        <line num="22" count="6" type="stmt"/>
-        <line num="23" count="6" type="stmt"/>
+        <line num="18" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="14" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="23" count="14" type="cond" truecount="1" falsecount="0"/>
         <line num="24" count="6" type="stmt"/>
         <line num="25" count="6" type="stmt"/>
         <line num="26" count="6" type="stmt"/>
         <line num="27" count="6" type="stmt"/>
         <line num="28" count="6" type="stmt"/>
-        <line num="29" count="14" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="32" count="1" type="stmt"/>
         <line num="33" count="1" type="stmt"/>
         <line num="34" count="3" type="stmt"/>
@@ -238,9 +238,25 @@
         <line num="37" count="1" type="stmt"/>
       </file>
     </package>
+    <package name="getUsuarioActivo">
+      <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="getUsuarioActivo.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\getUsuarioActivo\getUsuarioActivo.js">
+        <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="impares">
       <metrics statements="25" coveredstatements="25" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
-      <file name="impares.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\impares\impares.js">
+      <file name="impares.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\impares\impares.js">
         <metrics statements="25" coveredstatements="25" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -249,9 +265,9 @@
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
         <line num="7" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="8" count="43" type="cond" truecount="2" falsecount="0"/>
-        <line num="9" count="21" type="stmt"/>
-        <line num="10" count="21" type="stmt"/>
+        <line num="8" count="43" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="22" type="stmt"/>
+        <line num="10" count="43" type="cond" truecount="1" falsecount="0"/>
         <line num="11" count="21" type="stmt"/>
         <line num="12" count="21" type="stmt"/>
         <line num="13" count="21" type="stmt"/>
@@ -271,7 +287,7 @@
     </package>
     <package name="juegoZelda">
       <metrics statements="26" coveredstatements="26" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="juegoZelda.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\juegoZelda\juegoZelda.js">
+      <file name="juegoZelda.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\juegoZelda\juegoZelda.js">
         <metrics statements="26" coveredstatements="26" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -303,7 +319,7 @@
     </package>
     <package name="mostrarSecuencia">
       <metrics statements="27" coveredstatements="27" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-      <file name="mostrarSecuencia.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\mostrarSecuencia\mostrarSecuencia.js">
+      <file name="mostrarSecuencia.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\mostrarSecuencia\mostrarSecuencia.js">
         <metrics statements="27" coveredstatements="27" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -312,19 +328,19 @@
         <line num="5" count="3" type="stmt"/>
         <line num="6" count="3" type="stmt"/>
         <line num="7" count="3" type="stmt"/>
-        <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
+        <line num="8" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="11" count="2" type="stmt"/>
         <line num="12" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="13" count="29" type="stmt"/>
         <line num="14" count="29" type="stmt"/>
         <line num="15" count="2" type="stmt"/>
         <line num="16" count="3" type="stmt"/>
-        <line num="17" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
+        <line num="17" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="21" count="1" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
         <line num="23" count="1" type="stmt"/>
@@ -336,7 +352,7 @@
     </package>
     <package name="palindrono">
       <metrics statements="22" coveredstatements="22" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
-      <file name="palindromo.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\palindrono\palindromo.js">
+      <file name="palindromo.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\palindrono\palindromo.js">
         <metrics statements="22" coveredstatements="22" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -364,7 +380,7 @@
     </package>
     <package name="repetirPalabra">
       <metrics statements="27" coveredstatements="27" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
-      <file name="repetirPalabra.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\repetirPalabra\repetirPalabra.js">
+      <file name="repetirPalabra.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\repetirPalabra\repetirPalabra.js">
         <metrics statements="27" coveredstatements="27" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -379,20 +395,36 @@
         <line num="11" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="12" count="3" type="stmt"/>
         <line num="13" count="3" type="stmt"/>
-        <line num="14" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="16" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
+        <line num="14" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="45" type="stmt"/>
+        <line num="18" count="45" type="stmt"/>
+        <line num="19" count="9" type="stmt"/>
+        <line num="20" count="9" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="23" count="1" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
         <line num="25" count="3" type="stmt"/>
         <line num="26" count="3" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="testObject">
+      <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="testObject.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\testObject\testObject.js">
+        <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
       </file>
     </package>
   </project>

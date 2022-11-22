@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">51.42% </span>
+                <span class="strong">94.28% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>18/35</span>
+                <span class='fraction'>33/35</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">51.42% </span>
+                <span class="strong">94.28% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>18/35</span>
+                <span class='fraction'>33/35</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -109,21 +109,21 @@
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
@@ -142,22 +142,22 @@ Enunciado: Crea un programa se encargue de transformar un número binario
 const convertir=(num)=&gt;{
     //pasamos el número a cadena
     let numString=num.toString()
-<span class="branch-0 cbranch-no" title="branch not covered" >    if(numString.length&gt;0){</span>
-<span class="cstat-no" title="statement not covered" >        //invertimos cadena</span>
-<span class="cstat-no" title="statement not covered" >        let cadenaNueva=numString.split("").reverse().join("");</span>
-<span class="cstat-no" title="statement not covered" >        let suma=0</span>
-<span class="cstat-no" title="statement not covered" >        //recorremos la cadena invertida al revés para que la posición 7 sea la que debería ser la posición 0</span>
-<span class="cstat-no" title="statement not covered" >        for(let i=cadenaNueva.length-1;i&gt;=0;i--){</span>
-<span class="cstat-no" title="statement not covered" >        </span>
-<span class="cstat-no" title="statement not covered" >            console.log("Posicion "+i+" letra "+cadenaNueva[i])</span>
-<span class="cstat-no" title="statement not covered" >            //Si el valor es 0 se calcula la potencia con la posición y se incrementa la suma</span>
-<span class="cstat-no" title="statement not covered" >            if(cadenaNueva[i]=='1'){</span>
-<span class="cstat-no" title="statement not covered" >                let potencia=2**i</span>
-<span class="cstat-no" title="statement not covered" >                suma+=potencia</span>
-<span class="cstat-no" title="statement not covered" >            }</span>
-<span class="cstat-no" title="statement not covered" >        }</span>
-<span class="cstat-no" title="statement not covered" >        return suma</span>
-<span class="cstat-no" title="statement not covered" >    }else{</span>
+    if(numString.length&gt;0){
+        //invertimos cadena
+        let cadenaNueva=numString.split("").reverse().join("");
+        let suma=0
+        //recorremos la cadena invertida al revés para que la posición 7 sea la que debería ser la posición 0
+        for(let i=cadenaNueva.length-1;i&gt;=0;i--){
+        
+            console.log("Posicion "+i+" letra "+cadenaNueva[i])
+            //Si el valor es 0 se calcula la potencia con la posición y se incrementa la suma
+            if(cadenaNueva[i]=='1'){
+                let potencia=2**i
+                suma+=potencia
+            }
+        }
+        return suma
+    }<span class="branch-0 cbranch-no" title="branch not covered" >else{</span>
 <span class="cstat-no" title="statement not covered" >        return 0</span>
 <span class="cstat-no" title="statement not covered" >    }</span>
     
@@ -172,7 +172,7 @@ module.exports=convertir</pre></td></tr></table></pre>
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2022-09-25T17:47:08.811Z
+                at 2022-11-22T09:09:33.102Z
             </div>
         <script src="../prettify.js"></script>
         <script>

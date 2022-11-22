@@ -462,11 +462,18 @@ consultando el valor de sus atributos después de haber creado el objeto.
 Crear un custom element que trabaje con slots y tenga dos imágenes de dos apis de animales. Aplicar estilos con shadow root.
 
 ## TEST Y PRUEBAS UNITARIAS DE EJERCICIOS CON JEST
+### testObject
+Ejercício de función que devuelve objeto y se pide hacer su test con jest que verifique 
+que se retorna un objeto
+
+### getUsuarioActivo
+Función que retorna objeto, se pide hacer test que verifique que retorna objeto
+y que el surname que retorna es el nombre que le pasa por parámetro en la función
 
 ## INSTALACIÓN
 npm init -> para crear proyecto de nodeJS
-
 npm install --save-dev jest -> para instalar JEST
+yarn add -D @types/jest -g -> para instalar ayuda visual studio code jest
 
 package.json:
 

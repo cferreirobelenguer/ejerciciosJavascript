@@ -9,6 +9,7 @@
   "author": "Carolina Ferreiro",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^29.2.3",
     "jest": "^29.0.2"
   }
 }
