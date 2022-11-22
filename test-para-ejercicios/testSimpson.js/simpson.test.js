@@ -6,7 +6,7 @@ describe("Verificar petición asíncrona",()=>{
         const infoDato=info(url)
         expect(typeof(url)).toBe("string")
     }),
-    test("Verificar que el dato que se devuelve es de tipo object si url es válido",()=>{
+    test("Verificar que el dato que se devuelve es de tipo object",()=>{
         const url="https://thesimpsonsquoteapi.glitch.me/quotes"
         const infoDato=info(url)
         expect(typeof(infoDato)).toEqual("object")

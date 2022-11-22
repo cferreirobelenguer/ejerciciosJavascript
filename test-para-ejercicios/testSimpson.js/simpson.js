@@ -1,4 +1,7 @@
-
+/* Hacer test a peticiones asíncronas, se pide:
+    -Comprobar si el dato que se devuelve es de tipo object
+    -Comprobar si la url que se pasa por parámetro es de tipo string*/
+    
 const info=async(url)=>{
     var dato=[]
     var errorData=""

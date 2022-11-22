@@ -496,6 +496,10 @@ Se pide:
     segunda función es el correcto
     - Hacer test que verifique que el array que se devuelve pasando como parámetro owner Marvel en la 
     segunda función tiene una longitud de 2
+### testSimpson
+Hacer test a peticiones asíncronas, se pide:
+    -Comprobar si el dato que se devuelve es de tipo object
+    -Comprobar si la url que se pasa por parámetro es de tipo string
 ## INSTALACIÓN
 npm init -> para crear proyecto de nodeJS
 npm install --save-dev jest -> para instalar JEST
