@@ -479,6 +479,23 @@ Se pide hacer test que verifique que retorne objeto con los valores pasados por 
 Función que retorna un arreglo de un string y un number,
 verificar con un test que devuelve un string y un number
 
+### heroesFind
+Hacer los siguientes test de estas dos funciones que la primera
+realiza una búsqueda por id del objeto literal heroes, y la segunda 
+filtra los datos de heroes que tenga el owner pasado por parámetro.
+Se pide:
+    - Hacer test que verifique que el objeto que se devuelve pasando como id 3 en la primera función 
+    es el correcto
+    - Hacer test que verifique que el objeto que se devuelve pasando como id 3 en la primera función 
+    es de tipo Object
+    - Hacer test que verifique que el array que se devuelve pasando como parámetro owner DC en la 
+    segunda función es de tipo Object
+    - Hacer test que verifique que el array que se devuelve pasando como parámetro owner DC en la 
+    segunda función tiene una longitud de 3
+    - Hacer test que verifique que el array que se devuelve pasando como parámetro owner Marvel en la 
+    segunda función es el correcto
+    - Hacer test que verifique que el array que se devuelve pasando como parámetro owner Marvel en la 
+    segunda función tiene una longitud de 2
 ## INSTALACIÓN
 npm init -> para crear proyecto de nodeJS
 npm install --save-dev jest -> para instalar JEST
