@@ -470,6 +470,11 @@ que se retorna un objeto
 Función que retorna objeto, se pide hacer test que verifique que retorna objeto
 y que el surname que retorna es el nombre que le pasa por parámetro en la función
 
+### returnObject
+Función que devuelve un objeto al que se le pasan por parámetro clave, nombre, edad
+y rango que tiene por defecto el valor Capitán.
+Se pide hacer test que verifique que retorne objeto con los valores pasados por parámetro
+
 ## INSTALACIÓN
 npm init -> para crear proyecto de nodeJS
 npm install --save-dev jest -> para instalar JEST

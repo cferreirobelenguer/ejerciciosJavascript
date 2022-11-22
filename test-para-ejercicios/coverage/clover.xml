@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1669108173159" clover="3.2.0">
-  <project timestamp="1669108173160" name="All files">
-    <metrics statements="353" coveredstatements="351" conditionals="51" coveredconditionals="50" methods="12" coveredmethods="12" elements="416" coveredelements="413" complexity="0" loc="353" ncloc="353" packages="12" files="12" classes="12"/>
+<coverage generated="1669109498872" clover="3.2.0">
+  <project timestamp="1669109498873" name="All files">
+    <metrics statements="368" coveredstatements="366" conditionals="52" coveredconditionals="51" methods="13" coveredmethods="13" elements="433" coveredelements="430" complexity="0" loc="368" ncloc="368" packages="13" files="13" classes="13"/>
     <package name="binarioDecimal">
       <metrics statements="35" coveredstatements="33" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
       <file name="binarioDecimal.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\binarioDecimal\binarioDecimal.js">
@@ -409,6 +409,27 @@
         <line num="25" count="3" type="stmt"/>
         <line num="26" count="3" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="returnObject">
+      <metrics statements="15" coveredstatements="15" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="returnObject.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\returnObject\returnObject.js">
+        <metrics statements="15" coveredstatements="15" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
       </file>
     </package>
     <package name="testObject">
