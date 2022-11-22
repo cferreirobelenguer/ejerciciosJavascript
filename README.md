@@ -475,6 +475,10 @@ Función que devuelve un objeto al que se le pasan por parámetro clave, nombre,
 y rango que tiene por defecto el valor Capitán.
 Se pide hacer test que verifique que retorne objeto con los valores pasados por parámetro
 
+### retornarArreglo
+Función que retorna un arreglo de un string y un number,
+verificar con un test que devuelve un string y un number
+
 ## INSTALACIÓN
 npm init -> para crear proyecto de nodeJS
 npm install --save-dev jest -> para instalar JEST
