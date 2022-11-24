@@ -191,7 +191,13 @@ Hacer función asíncrona con fetch  y asyn await sin .then
 
 ### DESESTRUCTURACIÓN DE OBJETOS
 
-DESESTRUCTURACIÓN DE OBJETOS
+## VOCAL COMÚN
+Crea una función que reciba un texto y retorne la vocal que
+más veces se repita.
+    - Ten cuidado con algunos casos especiales
+    - Si no hay vocales podrá devolver vacío
+
+## DESESTRUCTURACIÓN DE OBJETOS
 
 Tenemos un objeto superheroe y se pide desestructurarlo para poder obtener en console cada uno de sus atributos
 
