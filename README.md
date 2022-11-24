@@ -196,6 +196,7 @@ Crea una función que reciba un texto y retorne la vocal que
 más veces se repita.
     - Ten cuidado con algunos casos especiales
     - Si no hay vocales podrá devolver vacío
+    - Hacer test unitarios con jest
 
 ## DESESTRUCTURACIÓN DE OBJETOS
 
@@ -506,6 +507,14 @@ Se pide:
 Hacer test a peticiones asíncronas, se pide:
     -Comprobar si el dato que se devuelve es de tipo object
     -Comprobar si la url que se pasa por parámetro es de tipo string
+
+## VOCAL COMÚN
+Crea una función que reciba un texto y retorne la vocal que
+más veces se repita.
+    - Ten cuidado con algunos casos especiales
+    - Si no hay vocales podrá devolver vacío
+    - Hacer test unitarios con jest
+    
 ## INSTALACIÓN
 npm init -> para crear proyecto de nodeJS
 npm install --save-dev jest -> para instalar JEST

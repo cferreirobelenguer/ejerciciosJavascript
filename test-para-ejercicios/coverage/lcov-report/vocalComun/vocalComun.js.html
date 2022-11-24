@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for testSimpson.js/simpson.js</title>
+    <title>Code coverage report for vocalComun/vocalComun.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -19,20 +19,20 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../index.html">All files</a> / <a href="index.html">testSimpson.js</a> simpson.js</h1>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">vocalComun</a> vocalComun.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">85% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>17/20</span>
+                <span class='fraction'>25/25</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">50% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>1/2</span>
+                <span class='fraction'>3/3</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">85% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>17/20</span>
+                <span class='fraction'>25/25</span>
             </div>
         
             
@@ -83,47 +83,59 @@
 <a name='L18'></a><a href='#L18'>18</a>
 <a name='L19'></a><a href='#L19'>19</a>
 <a name='L20'></a><a href='#L20'>20</a>
-<a name='L21'></a><a href='#L21'>21</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/* Hacer test a peticiones asíncronas, se pide:
-    -Comprobar si el dato que se devuelve es de tipo object
-    -Comprobar si la url que se pasa por parámetro es de tipo string*/
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">&nbsp;
+/* Crea una función que reciba un texto y retorne la vocal que
+más veces se repita.
+    - Ten cuidado con algunos casos especiales
+    - Si no hay vocales podrá devolver vacío*/
+&nbsp;
+    const vocalComun=texto=&gt;{
+        text=texto.toLowerCase()
+        let vocales={
+            a: [...text.matchAll(/a|á|ä/g)].length,
+            e: [...text.matchAll(/e|é|ë/g)].length,
+            i: [...text.matchAll(/i|í|ï/g)].length,
+            o: [...text.matchAll(/o|ó|ö/g)].length,
+            u: [...text.matchAll(/u|ú|ü/g)].length
+        }
+        const {a,e,i,o,u}=vocales
+        let max=Math.max(a,e,i,o,u)
+        if(max===0){
+            return 0
+        }else{
+            return max
+        }
     
-const info=async(url)=&gt;{
-    var dato=[]
-    var errorData=""
-    try{
-        const res=await fetch(url)
-<span class="cstat-no" title="statement not covered" ><span class="branch-0 cbranch-no" title="branch not covered" >        const data=await res.json()</span></span>
-<span class="cstat-no" title="statement not covered" >        dato=data[0]</span>
-<span class="cstat-no" title="statement not covered" >        console.log(dato)</span>
-    }catch(error){
-        errorData="No se encontraron datos"
-        console.log(errorData)
     }
-    
-}
-info("https://thesimpsonsquoteapi.glitch.me/quotes")
-module.exports=info
-&nbsp;</pre></td></tr></table></pre>
+    module.exports=vocalComun</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->

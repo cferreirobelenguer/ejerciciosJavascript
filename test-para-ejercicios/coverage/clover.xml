@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1669133453674" clover="3.2.0">
-  <project timestamp="1669133453674" name="All files">
-    <metrics statements="450" coveredstatements="441" conditionals="59" coveredconditionals="57" methods="17" coveredmethods="17" elements="526" coveredelements="515" complexity="0" loc="450" ncloc="450" packages="16" files="16" classes="16"/>
+<coverage generated="1669302754628" clover="3.2.0">
+  <project timestamp="1669302754629" name="All files">
+    <metrics statements="478" coveredstatements="473" conditionals="62" coveredconditionals="60" methods="18" coveredmethods="18" elements="558" coveredelements="551" complexity="0" loc="478" ncloc="478" packages="17" files="17" classes="17"/>
     <package name="binarioDecimal">
       <metrics statements="35" coveredstatements="33" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
-      <file name="binarioDecimal.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\binarioDecimal\binarioDecimal.js">
+      <file name="binarioDecimal.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\binarioDecimal\binarioDecimal.js">
         <metrics statements="35" coveredstatements="33" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -45,7 +45,7 @@
     </package>
     <package name="buscarPalabra">
       <metrics statements="35" coveredstatements="35" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-      <file name="buscarPalabra.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\buscarPalabra\buscarPalabra.js">
+      <file name="buscarPalabra.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\buscarPalabra\buscarPalabra.js">
         <metrics statements="35" coveredstatements="35" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -86,7 +86,7 @@
     </package>
     <package name="buscarReno">
       <metrics statements="56" coveredstatements="56" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
-      <file name="buscarReno.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\buscarReno\buscarReno.js">
+      <file name="buscarReno.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\buscarReno\buscarReno.js">
         <metrics statements="56" coveredstatements="56" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -148,7 +148,7 @@
     </package>
     <package name="dividirArray">
       <metrics statements="43" coveredstatements="43" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-      <file name="dividirArray.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\dividirArray\dividirArray.js">
+      <file name="dividirArray.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\dividirArray\dividirArray.js">
         <metrics statements="43" coveredstatements="43" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -197,7 +197,7 @@
     </package>
     <package name="gestionarDuplicados">
       <metrics statements="37" coveredstatements="37" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-      <file name="gestionarDuplicados.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\gestionarDuplicados\gestionarDuplicados.js">
+      <file name="gestionarDuplicados.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\gestionarDuplicados\gestionarDuplicados.js">
         <metrics statements="37" coveredstatements="37" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -240,7 +240,7 @@
     </package>
     <package name="getUsuarioActivo">
       <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="getUsuarioActivo.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\getUsuarioActivo\getUsuarioActivo.js">
+      <file name="getUsuarioActivo.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\getUsuarioActivo\getUsuarioActivo.js">
         <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -256,7 +256,7 @@
     </package>
     <package name="heroesFind">
       <metrics statements="58" coveredstatements="58" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-      <file name="heroesFind.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\heroesFind\heroesFind.js">
+      <file name="heroesFind.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\heroesFind\heroesFind.js">
         <metrics statements="58" coveredstatements="58" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -320,7 +320,7 @@
     </package>
     <package name="impares">
       <metrics statements="25" coveredstatements="25" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
-      <file name="impares.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\impares\impares.js">
+      <file name="impares.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\impares\impares.js">
         <metrics statements="25" coveredstatements="25" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -351,7 +351,7 @@
     </package>
     <package name="juegoZelda">
       <metrics statements="26" coveredstatements="26" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="juegoZelda.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\juegoZelda\juegoZelda.js">
+      <file name="juegoZelda.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\juegoZelda\juegoZelda.js">
         <metrics statements="26" coveredstatements="26" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -383,7 +383,7 @@
     </package>
     <package name="mostrarSecuencia">
       <metrics statements="27" coveredstatements="27" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-      <file name="mostrarSecuencia.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\mostrarSecuencia\mostrarSecuencia.js">
+      <file name="mostrarSecuencia.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\mostrarSecuencia\mostrarSecuencia.js">
         <metrics statements="27" coveredstatements="27" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -416,7 +416,7 @@
     </package>
     <package name="palindrono">
       <metrics statements="22" coveredstatements="22" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
-      <file name="palindromo.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\palindrono\palindromo.js">
+      <file name="palindromo.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\palindrono\palindromo.js">
         <metrics statements="22" coveredstatements="22" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -444,7 +444,7 @@
     </package>
     <package name="repetirPalabra">
       <metrics statements="27" coveredstatements="27" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
-      <file name="repetirPalabra.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\repetirPalabra\repetirPalabra.js">
+      <file name="repetirPalabra.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\repetirPalabra\repetirPalabra.js">
         <metrics statements="27" coveredstatements="27" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -477,7 +477,7 @@
     </package>
     <package name="retornarArreglo">
       <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="retornarArreglo.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\retornarArreglo\retornarArreglo.js">
+      <file name="retornarArreglo.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\retornarArreglo\retornarArreglo.js">
         <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -490,7 +490,7 @@
     </package>
     <package name="returnObject">
       <metrics statements="15" coveredstatements="15" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="returnObject.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\returnObject\returnObject.js">
+      <file name="returnObject.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\returnObject\returnObject.js">
         <metrics statements="15" coveredstatements="15" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -511,7 +511,7 @@
     </package>
     <package name="testObject">
       <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="testObject.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\testObject\testObject.js">
+      <file name="testObject.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\testObject\testObject.js">
         <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -526,26 +526,60 @@
       </file>
     </package>
     <package name="testSimpson.js">
-      <metrics statements="17" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="simpson.js" path="C:\Users\cferrebe\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\testSimpson.js\simpson.js">
-        <metrics statements="17" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <metrics statements="20" coveredstatements="17" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="simpson.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\testSimpson.js\simpson.js">
+        <metrics statements="20" coveredstatements="17" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="6" count="3" type="stmt"/>
-        <line num="7" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="11" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
         <line num="14" count="3" type="stmt"/>
         <line num="15" count="3" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="vocalComun">
+      <metrics statements="25" coveredstatements="25" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="vocalComun.js" path="C:\Users\Carol\Documents\proyectos\ejerciciosJavascript\test-para-ejercicios\vocalComun\vocalComun.js">
+        <metrics statements="25" coveredstatements="25" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="18" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
       </file>
     </package>
   </project>

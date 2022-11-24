@@ -22,4 +22,4 @@ más veces se repita.
         }
     
     }
-    console.log(vocalComun("hl mnd"))
+    module.exports=vocalComun
