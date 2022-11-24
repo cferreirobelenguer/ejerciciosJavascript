@@ -412,6 +412,12 @@ const player2 = {
 player1.play();
 player2.play();
 
+### typescript apiGithub
+
+Hacer una petición asíncrona en la api de github
+    - Se pide buscar el id 109515496
+    - Imprimir los resultados en la web por medio de dom
+
 ### typescript_herencia
 
 
