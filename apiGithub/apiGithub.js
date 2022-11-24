@@ -39,10 +39,11 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 var _this = this;
 var verFollowers = function () { return __awaiter(_this, void 0, void 0, function () {
-    var url, res, data, datosTotales, login, node_id, avatar_url, elemento1, titulo, elemento2, titulo2, elemento3, imagen;
+    var url, res, data, datosTotales_1, login, node_id, avatar_url, elemento1, titulo, elemento2, titulo2, elemento3, imagen, err_1;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0:
+                _a.trys.push([0, 3, , 4]);
                 url = "https://api.github.com/users/cferreirobelenguer/followers";
                 return [4 /*yield*/, fetch(url)];
             case 1:
@@ -51,7 +52,7 @@ var verFollowers = function () { return __awaiter(_this, void 0, void 0, functio
             case 2:
                 data = _a.sent();
                 console.log(data);
-                datosTotales = {
+                datosTotales_1 = {
                     login: "",
                     node_id: "",
                     avatar_url: ""
@@ -59,14 +60,14 @@ var verFollowers = function () { return __awaiter(_this, void 0, void 0, functio
                 data.map(function (i) {
                     //Si se encuentra el id se encuentra
                     if (i.id === 109515496) {
-                        datosTotales = {
+                        datosTotales_1 = {
                             login: i.login,
                             node_id: i.node_id,
                             avatar_url: i.avatar_url
                         };
                     }
                 });
-                login = datosTotales.login, node_id = datosTotales.node_id, avatar_url = datosTotales.avatar_url;
+                login = datosTotales_1.login, node_id = datosTotales_1.node_id, avatar_url = datosTotales_1.avatar_url;
                 elemento1 = document.getElementById("seccion1");
                 titulo = document.createElement('h1');
                 titulo.textContent = login;
@@ -82,7 +83,12 @@ var verFollowers = function () { return __awaiter(_this, void 0, void 0, functio
                 imagen.width = 300;
                 imagen.height = 300;
                 elemento3 === null || elemento3 === void 0 ? void 0 : elemento3.appendChild(imagen);
-                return [2 /*return*/];
+                return [3 /*break*/, 4];
+            case 3:
+                err_1 = _a.sent();
+                console.log("Error ".concat(err_1));
+                return [3 /*break*/, 4];
+            case 4: return [2 /*return*/];
         }
     });
 }); };
