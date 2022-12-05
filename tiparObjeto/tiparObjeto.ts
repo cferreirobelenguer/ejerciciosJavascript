@@ -10,9 +10,9 @@ const SuperHeroe:SuperHeroeType={
     mostrarDireccion(){
         return this.nombre+", "+this.direccion.ciudad+", "+this.direccion.pais
     }
+    
 }
-
-Y llamar al método dentro del objeto tipado
+Desestructurar el objeto y llamar al método dentro del objeto tipado
 */
 
 interface SuperHeroeType{
@@ -40,7 +40,10 @@ const SuperHeroe:SuperHeroeType={
 }
 
 const mostrar=(SuperHeroe:SuperHeroeType):string=>{
-
+    //Desestructuración del objeto
+    const {nombre,edad,direccion}=SuperHeroe
+    const {calle,pais,ciudad}=direccion
+    //La función retorna el método
     return SuperHeroe.mostrarDireccion()
 }
 

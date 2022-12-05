@@ -10,9 +10,9 @@ const SuperHeroe:SuperHeroeType={
     mostrarDireccion(){
         return this.nombre+", "+this.direccion.ciudad+", "+this.direccion.pais
     }
+    
 }
-
-Y llamar al método dentro del objeto tipado
+Desestructurar el objeto y llamar al método dentro del objeto tipado
 */
 var SuperHeroe = {
     nombre: "Spiderman",
@@ -27,6 +27,10 @@ var SuperHeroe = {
     }
 };
 var mostrar = function (SuperHeroe) {
+    //Desestructuración del objeto
+    var nombre = SuperHeroe.nombre, edad = SuperHeroe.edad, direccion = SuperHeroe.direccion;
+    var calle = direccion.calle, pais = direccion.pais, ciudad = direccion.ciudad;
+    //La función retorna el método
     return SuperHeroe.mostrarDireccion();
 };
 console.log(mostrar(SuperHeroe));

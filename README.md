@@ -333,7 +333,7 @@ const SuperHeroe:SuperHeroeType={
     }
 }
 
-Y llamar al método dentro del objeto tipado
+Desestructurar el objeto y llamar al método dentro del objeto tipado
 
 ### typescript buscarAlmacen
 
