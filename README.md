@@ -317,6 +317,24 @@ Consultar api en GIPHY y escribir los resultados a través del dom
 
 ## TYPESCRIPT
 
+### tiparObjeto
+
+Tipar mediante interface la siguiente constante:
+const SuperHeroe:SuperHeroeType={
+    nombre:"Spiderman",
+    edad:30,
+    direccion:{
+        calle:"Main St",
+        pais:"USA",
+        ciudad:"NY"
+    },
+    mostrarDireccion(){
+        return this.nombre+", "+this.direccion.ciudad+", "+this.direccion.pais
+    }
+}
+
+Y llamar al método dentro del objeto tipado
+
 ### typescript buscarAlmacen
 
 Mi amigo Dani está trabajando en una tienda y con la llegada de las navidades tiene el almacén hecho un desastre y no encuentra nada.
