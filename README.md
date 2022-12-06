@@ -317,6 +317,14 @@ Consultar api en GIPHY y escribir los resultados a través del dom
 
 ## TYPESCRIPT
 
+### detectorHandler
+
+Crear función que sea capaz de detectar y retornar todos los handles
+de un texto usando solamente expresiones regulares:
+    - handle usuario: los que comienzan por @
+    - handle hashtag: los que comienzan por #
+    - handle web: los que comienzan por wwww. ,http://, https://
+
 ### tiparObjeto
 
 Tipar mediante interface la siguiente constante:
