@@ -10,20 +10,17 @@ var enviarPost = function (post) {
     var datos = post.split(" ");
     datos.map(function (i) {
         if (i.startsWith('@')) {
-            console.log(i)
             console.log("Se menciona usuario");
         }
         else if (i.startsWith('#')) {
-            console.log(i)
-            console.log("Se menciona hashtag");
+            console.log("Se menciona hashtag ");
         }
         else if ((i.startsWith('www')) || (i.startsWith('http://')) || (i.startsWith('https://'))) {
-            console.log(i)
-            console.log("Se menciona web");
+            console.log("Se menciona web ");
         }
         else {
             console.log("");
         }
     });
 };
-enviarPost("#usuario para web @hola");
+enviarPost("#usuario: Recomiendo la web https://programacion.com para aprender lenguajes");

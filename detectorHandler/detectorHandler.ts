@@ -12,15 +12,15 @@ const enviarPost=(post:string):void=>{
     let datos:string[]=post.split(" ")
     datos.map(i=>{
         if(i.startsWith('@')){
-            return `Se menciona usuario`
+            console.log(`Se menciona usuario`)
         }else if(i.startsWith('#')){
-            return `Se menciona hashtag `
+            console.log(`Se menciona hashtag `)
         }else if((i.startsWith('www'))||(i.startsWith('http://'))||(i.startsWith('https://'))){
-            return `Se menciona web `
+            console.log(`Se menciona web `)
         }else{
-            return ""
+            console.log("")
         }
         
     })
 }
-console.log(enviarPost("#usuario: Recomiendo la web https://programacion.com para aprender lenguajes"))
+enviarPost("#usuario: Recomiendo la web https://programacion.com para aprender lenguajes")
