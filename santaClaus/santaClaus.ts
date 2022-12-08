@@ -19,7 +19,7 @@ Cosas a tener en cuenta:
 Las cajas de regalos no se pueden dividir.
 Los nombres de los regalos y los renos siempre serán mayores que 0. */
 
-function distributeGifts(packOfGifts:string[], reindeers:string[]) {
+function distributeGifts(packOfGifts:string[], reindeers:string[]):number {
     let gifs:number=0
     let renos:number=0
     for(let i of packOfGifts){
@@ -31,7 +31,7 @@ function distributeGifts(packOfGifts:string[], reindeers:string[]) {
         renos+=(renoNumber*2)
     }
     
-    let total:number=Math. trunc(renos/gifs)
+    let total:number=Math.trunc(renos/gifs)
     return total
     }
 console.log(distributeGifts(["book", "doll", "ball","videogame"],["dasher", "dancer"]))
