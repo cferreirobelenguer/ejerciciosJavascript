@@ -63,6 +63,90 @@ alfabéticamente, en caso de que coincida la primera letra habrá que hacer la c
 
 ## FUNCIONES
 
+### cocinando
+En este ejercicio, escribirá más código relacionado con la preparación y cocción de su brillante lasaña de su libro de cocina favorito.
+
+Tienes cinco tareas. El primero está relacionado con la cocción en sí, los otros cuatro tienen que ver con la preparación perfecta.
+
+1. Determinar si la lasaña está hecha
+Cuando tienes lasaña en el horno, quieres saber si ya puedes sacarla o no. Para asegurarse de que la lasaña no se queme en el horno, generalmente configura un temporizador. Pero a veces te olvidas de eso.
+
+Escriba una función cookingStatus que acepte el tiempo restante en el temporizador en minutos como parámetro. La función tiene tres resultados posibles.
+
+Si el temporizador muestra 0, debería devolver 'Lasagna is done.'.
+Si el temporizador muestra cualquier otro número, el resultado debería ser 'No hecho, espere'.
+Si se llama a la función sin un valor de temporizador, el resultado debería ser 'Olvidó configurar el temporizador'.
+El temporizador nunca mostrará un valor por debajo de 0.
+cookingStatus(12);
+// => 'Not done, please wait.'
+
+cookingStatus();
+// => 'You forgot to set the timer.'
+
+2. Tiempo de preparación
+Para la próxima lasaña que prepararás, querrás asegurarte de tener suficiente tiempo reservado para que puedas disfrutar de la cocina. Ya hiciste un plan con todas las capas que tendrá tu lasaña. Ahora desea estimar cuánto tiempo llevará la preparación en función de eso.
+
+Implemente una función de tiempo de preparación que acepte una matriz de capas y el tiempo de preparación promedio por capa en minutos. La función debe devolver la estimación del tiempo total de preparación en función del número de capas. Si se llama a la función sin proporcionar el tiempo medio de preparación, en su lugar se deben suponer 2 minutos.
+const layers = ['sauce', 'noodles', 'sauce', 'meat', 'mozzarella', 'noodles'];
+preparationTime(layers, 3);
+// => 18
+
+preparationTime(layers);
+// => 12
+
+3. Calcule las cantidades de fideos y salsa necesarias
+Además de reservar el tiempo, también querrás asegurarte de tener suficiente salsa y fideos para cocinar la lasaña de tus sueños. Para cada capa de fideos en su lasaña, necesitará 50 gramos de fideos. Para cada capa de salsa en su lasaña, necesitará 0,2 litros de salsa.
+
+Define las cantidades de la función que toma como parámetro una matriz de capas. Luego, la función determinará la cantidad de fideos y salsa necesaria para preparar su comida. El resultado debe devolverse como un objeto con llaves, fideos y salsa.
+quantities(['sauce', 'noodles', 'sauce', 'meat', 'mozzarella', 'noodles']);
+// => { noodles: 100, sauce: 0.4 }
+
+4. Agrega el ingrediente secreto
+Hace un tiempo visitaste a un amigo y comiste lasaña allí. Fue increíble y tenía algo especial. El amigo le envió la lista de ingredientes y le dijo que el último elemento de la lista es el "ingrediente secreto" que hizo que la comida fuera tan especial. Ahora también desea agregar ese ingrediente secreto a su receta.
+
+Escriba una función addSecretIngredient que acepte dos matrices de ingredientes como parámetros. El primer parámetro es la lista que te envió tu amigo y el segundo es la lista de ingredientes para tu propia receta. La función debería agregar el último elemento de la lista de tus amigos al final de tu lista. La matriz que representa su receta debe modificarse directamente y la función no debe devolver nada. Sin embargo, el primer argumento no debe modificarse.
+const friendsList = ['noodles', 'sauce', 'mozzarella', 'kampot pepper'];
+const myList = ['noodles', 'meat', 'sauce', 'mozzarella'];
+
+addSecretIngredient(friendsList, myList);
+// => undefined
+
+console.log(myList);
+// => ['noodles', 'meat', 'sauce', 'mozzarella', 'kampot pepper']
+
+5. Escala la receta
+Las cantidades que figuran en su libro de cocina solo rinden suficiente lasaña para dos porciones. Como desea cocinar para más personas la próxima vez, desea calcular las cantidades para diferentes números de porciones.
+
+Implemente una función scaleRecipe que tome dos parámetros.
+
+Un objeto de receta que contiene las cantidades necesarias para 2 porciones. El formato del objeto se puede ver en el siguiente ejemplo.
+El número de porciones que desea cocinar.
+La función debe devolver un objeto de receta con las cantidades necesarias para el número deseado de porciones. Sin embargo, desea mantener la receta original. Esto significa que en esta tarea no se debe modificar el argumento de la receta.
+const recipe = {
+  noodles: 200,
+  sauce: 0.5,
+  mozzarella: 1,
+  meat: 100,
+};
+
+scaleRecipe(recipe, 4);
+// =>
+// {
+//   noodles: 400,
+//   sauce: 1,
+//   mozzarella: 2,
+//   meat: 200,
+// };
+
+console.log(recipe);
+// =>
+// {
+//   noodles: 200,
+//   sauce: 0.5,
+//   mozzarella: 1,
+//   meat: 100,
+// };
+
 ### cambiarFuncion
 
 Dado el siguiente código:
