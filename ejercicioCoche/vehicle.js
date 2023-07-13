@@ -40,4 +40,3 @@ function calculateResellPrice(originalPrice, age) {
         return originalPrice * 0.50;
     }
 }
-console.log(calculateResellPrice(400000,1))
