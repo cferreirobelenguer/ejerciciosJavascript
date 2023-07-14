@@ -177,6 +177,19 @@ Tiene que retornar un objeto implícito
 
 ## LISTAS, MATRICES Y MAPAS
 
+### Expresión matemática
+Crea una función que reciba una expresión matemática (String)
+y compruebe si es correcta. Retornará true o false.
+  - Para que una expresión matemática sea correcta debe poseer
+    un número, una operación y otro número separados por espacios.
+    Tantos números y operaciones como queramos.
+  - Números positivos, negativos, enteros o decimales.
+  - Operaciones soportadas: + - * / % 
+ 
+ Ejemplos:
+ "5 + 6 / 7 - 4" -> true
+ "5 a 6" -> false
+
 ### empaquetarRegalos
 
 Este año los elfos han comprado una máquina que envuelve regalos. Pero… ¡no viene programada! Necesitamos crear un algoritmo que le ayude en la tarea.
