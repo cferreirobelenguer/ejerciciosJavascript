@@ -31,6 +31,6 @@ const compareStrings = (word1, word2) => {
         }
     }
     
-    console.log(words)
+    return words
 }
-compareStrings('Hola de Carol','hola.de caral')
+console.log(compareStrings('Me llamo.Brais Moure','Me llamo brais moure'))
