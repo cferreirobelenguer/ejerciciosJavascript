@@ -231,7 +231,7 @@ Coger esos datos mediante dom y convertirlos en una lista iterable
 Al pulsar calcular se va a calcular la suma de todos los números de la lista
 
 ### escribirMovil
-Escribir un mensaje de texto con el teléfono Nokia 1100
+Escribir un mensaje de texto con el teléfono Nokia 3310
 
 En los años 2000 los teléfonos no tenían teclado en pantalla. 
 Traían números del 0 al 9 con los que se debía escribir presionando 
